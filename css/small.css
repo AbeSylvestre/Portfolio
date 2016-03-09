@@ -1,0 +1,93 @@
+article {
+    margin-top: 105px;
+}
+
+/* Navigation Bar section */
+.navBar {
+    position: fixed;
+    top: 0;
+    z-index: 8000;
+    width: 100%;
+}
+
+.navBar ul:first-of-type {
+    margin: auto;
+}
+
+.navBar li {
+    float: left;
+}
+
+.navBar ul ul {
+    float: right;
+    padding-left: 20px;
+}
+
+.navBar button {
+    padding-top: 5px;
+    margin-top: 19px;
+    margin-right: 25px;
+}
+
+.smallMenu {
+    margin: 10px 0px;
+    padding-left: 5%;
+    display: none;
+}
+
+.smallMenu li a {
+    padding: 0px 15px;
+}
+
+/* End of Navigation Bar section */
+
+
+
+/* Projects section */
+.projects p {
+    padding: 0% 7%;
+}
+
+.projects img {
+    width: 210px;
+    height: 155px;
+}
+
+/* End of Projects section */
+
+
+
+/* About Me section */
+
+.aboutMe figure {
+    margin: 20px 15px;
+}
+
+.aboutMe img[src*=Portrait] {
+    height: 35%; width: 70%;
+}
+
+.aboutMe section {
+    padding: 0px;
+}
+
+.aboutMe p {
+    padding: 0% 7%;
+}
+
+/* Contact section */
+.contact p {
+    width: 70%;
+}
+
+.contact table {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.contact form {
+    width: 60%;
+}
+
+
+/* End of Contact section */

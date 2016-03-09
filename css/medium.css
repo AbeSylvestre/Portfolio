@@ -1,0 +1,34 @@
+/* Projects section */
+.projects {
+    width: 95%;
+    text-align: center;
+}
+.projects img {
+    width: 250px;
+    height: 180px;
+}
+
+.projects figure {
+    float: left;
+}
+
+.projects section {
+    float: right;
+}
+
+.projects hr {
+    width: 80%;
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+/* End of Projects section */
+
+
+/* About Me section */
+
+/* End of About Me section */
+
+
+/* Contact section */

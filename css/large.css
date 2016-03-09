@@ -1,0 +1,40 @@
+/* Projects section */
+.projects {
+    text-align: initial;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.projects img {
+    max-height: 450px;
+    max-width: 300px;
+}
+
+.projects section {
+    margin: auto;
+    overflow: auto;
+    max-width: 1000px;
+}
+
+.projects figure {
+    float: left;
+}
+
+/* End of Projects section */
+
+
+/* About Me section */
+
+/* End of About Me section */
+
+
+/* Contact section */
+.contact table {
+    width: 40%;
+}
+
+.contact textarea {
+    min-width: 500px;
+}
