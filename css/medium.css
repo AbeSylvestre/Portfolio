@@ -1,7 +1,7 @@
 /* Projects section */
 .projects {
     width: 95%;
-    text-align: center;
+    text-align: initial;
 }
 .projects img {
     width: 250px;
@@ -13,7 +13,7 @@
 }
 
 .projects section {
-    float: right;
+    margin: auto;
 }
 
 .projects hr {

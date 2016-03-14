@@ -8,6 +8,7 @@ article {
     top: 0;
     z-index: 8000;
     width: 100%;
+    max-height: 100px;
 }
 
 .navBar ul:first-of-type {
@@ -25,8 +26,7 @@ article {
 
 .navBar button {
     padding-top: 5px;
-    margin-top: 19px;
-    margin-right: 25px;
+    margin-top: 5px;
 }
 
 .smallMenu {
@@ -36,7 +36,7 @@ article {
 }
 
 .smallMenu li a {
-    padding: 0px 15px;
+    padding: 0px 10px;
 }
 
 /* End of Navigation Bar section */
