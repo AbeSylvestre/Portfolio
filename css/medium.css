@@ -1,19 +1,19 @@
+article {
+    margin: 15% auto;
+}
+
 /* Projects section */
 .projects {
     width: 95%;
-    text-align: center;
 }
 .projects img {
     width: 250px;
     height: 180px;
 }
 
-.projects figure {
-    float: left;
-}
-
 .projects section {
-    float: right;
+    margin: auto;
+    width: 85%;
 }
 
 .projects hr {
@@ -27,8 +27,8 @@
 
 
 /* About Me section */
-
 /* End of About Me section */
 
 
 /* Contact section */
+/* End of Contact section*/
