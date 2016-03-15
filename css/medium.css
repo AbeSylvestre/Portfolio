@@ -5,6 +5,10 @@ article {
 /* Projects section */
 .projects {
     width: 95%;
+<<<<<<< HEAD
+=======
+    text-align: initial;
+>>>>>>> origin/master
 }
 .projects img {
     width: 250px;
@@ -13,7 +17,10 @@ article {
 
 .projects section {
     margin: auto;
+<<<<<<< HEAD
     width: 85%;
+=======
+>>>>>>> origin/master
 }
 
 .projects hr {
