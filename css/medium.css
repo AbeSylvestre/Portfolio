@@ -5,15 +5,33 @@ article {
 /* Projects section */
 .projects {
     width: 95%;
+<<<<<<< HEAD
 }
 .projects img {
     width: 350px;
     max-height: 250px;
+=======
+<<<<<<< HEAD
+=======
+    text-align: initial;
+>>>>>>> origin/master
+}
+.projects img {
+    width: 250px;
+    height: 180px;
+>>>>>>> origin/master
 }
 
 .projects section {
     margin: auto;
+<<<<<<< HEAD
     width: 85%;
+=======
+<<<<<<< HEAD
+    width: 85%;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
 
 .projects hr {

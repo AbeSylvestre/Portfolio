@@ -25,6 +25,7 @@ article {
 }
 
 .navBar button {
+<<<<<<< HEAD
     padding-top: 6px;
     margin-top: 5px;
     background-color: white;
@@ -35,6 +36,10 @@ article {
 .navBar img {
     max-height: 20px;
     max-width: 20px;
+=======
+    padding-top: 5px;
+    margin-top: 5px;
+>>>>>>> origin/master
 }
 
 .smallMenu {
