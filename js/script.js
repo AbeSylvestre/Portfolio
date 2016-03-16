@@ -54,4 +54,16 @@ $(document).ready(function() {
         $(".smallMenu").toggle();           // So the menu doesn't stay after a selection is made.
     });
     
+
+
+/* Projects Slideshow */
+    /*
+    $("#csfpa").delay(4000).fadeOut('fast', function() {
+        $("#csfpa").attr("src", "../portfolio/images/csf_homepage.png").fadeIn();
+    });
+    
+     $("#csfpa").delay(4000).fadeOut('fast', function() {
+        $("#csfpa").attr("src", "../portfolio/images/csf_up.png").fadeIn();
+     });
+     */
 });
