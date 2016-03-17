@@ -9,10 +9,6 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: blue;
-}
-
 article {
     margin-top: 150px;
     margin-bottom: 5%;
@@ -27,6 +23,21 @@ article::before {
   visibility: hidden; 
 }
 
+.aboutMe button, .contact button{
+    height: 50px;
+	width: 50%;
+	background-color: #3b1261;
+	border-radius: 7px;
+	color: white;
+	border-color: gray;
+    margin: 20px auto;
+    display: block;
+}
+
+.aboutMe button:hover, .contact button:hover {
+    background-color: #bba3d0;
+    color: #3b1261;
+}
 
 /* Navigation Bar section */ /* Check small.css for small device's navBar */
 .navBar {
@@ -34,6 +45,7 @@ article::before {
     top: 0;
     z-index: 8000;
     width: 100%;
+    max-height: 90px;
     background: #3b1261;
 }
 
@@ -51,6 +63,16 @@ article::before {
     display: inline;
 }
 
+.navBar li a {
+    display: block;
+    text-align: center;
+}
+
+.navBar h3 {
+    padding: 10px 5px;
+    margin: auto;
+}
+
 .navBar ul ul {
     float: right;
 }
@@ -58,13 +80,7 @@ article::before {
 .navBar ul ul a, .smallMenu a {
     display: block;
     text-align: center;
-    padding: 27px 15px;
-}
-
-.navBar li a {
-    display: block;
-    text-align: center;
-    padding: 1px 1px;
+    padding: 5px 10px;
 }
 
 .navBar a:hover {
@@ -77,8 +93,20 @@ article::before {
 
 
 /* Projects section */
+.projects h2 {
+    text-align: center;
+}
+
 .projects h5 {
     color: #3b1261;
+    margin-right: 20px;
+}
+
+.projects a:hover {
+    color: white;
+    background-color: #3b1261;
+    padding: 3px;
+    border-radius: 8px;
 }
 
 /* End of Projects section */
@@ -107,6 +135,10 @@ article::before {
     padding: 0px;
 }
 
+.aboutMe button {
+    max-width: 150px;
+}
+
 /* End of About Me section */
 
 
@@ -120,9 +152,13 @@ article::before {
     margin: auto;
 }
 
+.contact figure {
+    margin: 5px auto;
+}
+
 .contact table {
     width: 50%;
-    margin: 3% auto;
+    margin: 2% auto;
 }
 
 .contact td {
@@ -138,6 +174,17 @@ article::before {
 
 .contact a, .contact a:visited {
     color: #3b1261;
+}
+
+.contact a p {
+    display: inline;
+}
+
+.contact a p:hover {
+    color: white;
+    background-color: #3b1261;
+    padding: 3px;
+    border-radius: 8px;
 }
 
 .contact form {
@@ -158,17 +205,6 @@ article::before {
     width: 100%;
     display: block;
     margin: 10px auto;
-}
-
-.contact button {
-	height: 50px;
-	width: 50%;
-	background-color: #3b1261;
-	border-radius: 7px;
-	color: white;
-	border-color: gray;
-    margin: 20px auto;
-    display: block;
 }
 
 /* End of Contact section */
