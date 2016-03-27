@@ -18,6 +18,10 @@
     max-width: 1000px;
 }
 
+.projects table {
+	margin: 0px;
+}
+
 .projects figure {
     float: left;
 }
