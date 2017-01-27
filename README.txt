@@ -1,3 +1,3 @@
-© 2016 Abraham Sylvestre
+Â© 2016 Abraham Sylvestre
 
-This is a repository of my current portfolio. Updates will be made as new projects are completed.
+This is a repository of my first professional portfolio. Please refer to my Portfolio 2.0 repository for my more recent work
